@@ -47,9 +47,10 @@ h1 {
   font-size: 2rem;
   margin-top: 3rem;
 }
-h2, h3 {
- margin-bottom: 3rem;
- text-align: center;
+h2,
+h3 {
+  margin-bottom: 3rem;
+  text-align: center;
 }
 .wrapper {
   padding: 1rem 2rem;
@@ -59,24 +60,24 @@ section {
 }
 
 .services article {
- position: relative;
+  position: relative;
   color: white;
   background-color: var(--clr-primary);
-  margin: 7rem 0;
+  margin: 7rem auto;
   padding: 2em;
-  border-radius: 25px;  
+  border-radius: 25px;
   min-height: 500px;
+  max-width: 350px;
 }
 .slice {
- position: absolute;
- right:50%;
- bottom:0;
- transform: translate(50%, 50%);
- width: 150px;
- height: 150px;
- background-image: url('./images/slice.png');
- background-size: cover;
- 
+  position: absolute;
+  right: 50%;
+  bottom: 0;
+  transform: translate(50%, 50%);
+  width: 150px;
+  height: 150px;
+  background-image: url("./images/slice.png");
+  background-size: cover;
 }
 footer {
   min-height: 8vh;
