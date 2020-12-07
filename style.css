@@ -79,6 +79,13 @@ section {
   background-image: url("./images/pngegg.png");
   background-size: cover;
 }
+.slice img {
+ width: 50%;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
 footer {
   min-height: 8vh;
   color: white;
