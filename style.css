@@ -20,7 +20,7 @@ a {
   color: inherit;
 }
 .logo {
-  padding: 2em;
+  padding: 1.5em;
   text-align: center;
 }
 .nav-container {
@@ -32,11 +32,12 @@ a {
 .menu__list {
   display: flex;
   justify-content: space-around;
-  padding: 0;
+  padding: 1.5em;
   list-style: none;
+  margin:0;
 }
 header {
-  min-height: 100vh;
+  min-height: 90vh;
   background: url("./images/header.jpg");
   background-size: cover;
   background-position: bottom;
@@ -45,7 +46,9 @@ header {
 }
 h1 {
   font-size: 2rem;
-  margin-top: 4rem;
+  margin: 4rem auto 0;
+  max-width: 25ch;
+  ;
 }
 h2,
 h3 {
@@ -103,3 +106,15 @@ footer {
 footer span {
   font-weight: bold;
 }
+@media (min-width:740px ) {
+
+ .nav-container {
+  display: flex;
+  justify-content: space-between;
+ }
+ .menu {
+  flex-basis: 40%;
+ }
+ 
+}
+
