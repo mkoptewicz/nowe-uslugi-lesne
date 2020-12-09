@@ -130,6 +130,15 @@ footer span {
   margin-left: auto;
  }
 }
+@media (min-width: 840px) {
+ .about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+ .about img {
+  margin: auto;
+ }
+}
 @media (min-width: 1200px) {
  h1 {
   font-size: 3.125rem;
