@@ -45,7 +45,7 @@ header {
 }
 h1 {
   font-size: 2rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
 }
 h2,
 h3 {
@@ -53,21 +53,29 @@ h3 {
   text-align: center;
 }
 .wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 1rem 2rem;
 }
 section {
+  margin-top: 5rem;
   margin-bottom: 5rem;
+}
+.services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .services article {
+  flex: 0 1 350px;
   position: relative;
   color: white;
   background-color: var(--clr-primary);
-  margin: 7rem auto;
+  margin: 7rem 1rem;
   padding: 2em;
   border-radius: 25px;
   min-height: 500px;
-  max-width: 350px;
 }
 .slice {
   position: absolute;
@@ -80,11 +88,11 @@ section {
   background-size: cover;
 }
 .slice img {
- width: 50%;
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 footer {
   min-height: 8vh;
