@@ -40,7 +40,7 @@ a {
   margin:0;
 }
 header {
-  min-height: 90vh;
+  min-height: 100vh;
   background: url("./images/header.jpg");
   background-size: cover;
   background-position: center;
@@ -130,4 +130,11 @@ footer span {
   margin-left: auto;
  }
 }
-
+@media (min-width: 1200px) {
+ h1 {
+  font-size: 3.125rem;
+ }
+ h2 {
+  font-size: 2rem;
+ }
+}
