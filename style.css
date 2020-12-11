@@ -22,6 +22,9 @@ a {
   text-decoration: none;
   color: inherit;
 }
+a:hover {
+  border-bottom: 2px solid black;
+}
 .logo {
   padding: 1.5em;
   text-align: center;
@@ -120,10 +123,13 @@ footer span {
     justify-content: space-between;
   }
   .menu {
-    flex-basis: 33%;
+    flex-basis: 40%;
   }
 }
 @media (min-width: 840px) {
+  .services-wrapper {
+    justify-content: space-around;
+  }
   .about-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -138,5 +144,8 @@ footer span {
   }
   h2 {
     font-size: 2rem;
+  }
+  .menu {
+    flex-basis: 30%;
   }
 }
