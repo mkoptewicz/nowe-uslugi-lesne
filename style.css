@@ -1,5 +1,5 @@
 :root {
-  --clr-primary: #02111b;
+  --clr-primary: #311a00;
 }
 html {
   scroll-behavior: smooth;
@@ -32,16 +32,14 @@ a:hover {
 .nav-container {
   position: fixed;
   top: 0;
-  left:0;
+  left: 0;
   width: 100%;
   margin-bottom: 1em;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  transition: background .25s linear;
+  transition: background 0.5s linear;
   z-index: 1;
-
-  
 }
 .nav-container--scrolled {
   background-color: var(--clr-primary);
