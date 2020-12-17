@@ -19,7 +19,7 @@ const headerObserver = new IntersectionObserver(function (
 headerOptions);
 headerObserver.observe(header);
 const sliderOptions = {
-  threshold: 0.3,
+  rootMargin: "150px 0px 0px 0px",
 };
 
 const showOnScroll = new IntersectionObserver(function (entries) {
