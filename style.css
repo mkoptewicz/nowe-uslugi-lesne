@@ -25,6 +25,9 @@ a {
 a:hover {
   border-bottom: 2px solid black;
 }
+.nav-container--scrolled a:hover {
+  border-bottom: 2px solid white;
+}
 .logo {
   padding: 1.5em;
   text-align: center;
