@@ -106,7 +106,7 @@ section {
   transform: translate(50%, 50%);
   width: 150px;
   height: 150px;
-  background-image: url("./images/pngegg.png");
+  background-image: url("./images/pngegg-min.png");
   background-size: cover;
 }
 .slice img {
